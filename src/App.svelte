@@ -219,10 +219,9 @@
   </Card>
   <Card {rc} title="Shout Outs" delay={14} bind:this={divs[4]} visible={false}>
     Shout out to Ms. Beare and the rest of my sixth period philosophy class. I
-    love the increased understanding of other people, increased understanding of
-    the underlying motivations behind my behavior, increased inner peace, and
-    overall a really fun class. Thank you all for making this class a fun,
-    accepting, and educational experience.
+    love how the class increased my understanding of other people, the
+    underlying motivations behind my behavior, my inner peace. Thank you all for
+    making this class a fun, accepting, and educational experience.
   </Card>
 </main>
 <Side>
