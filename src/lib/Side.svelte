@@ -203,7 +203,7 @@
     transition: transform calc(var(--transition-speed) * 2);
   }
   .side.collapsed button {
-    right: -3rem;
+    right: -2rem;
     left: auto;
     width: calc(var(--width) + 2rem);
     border-radius: 2rem;
@@ -212,7 +212,7 @@
     background: rgb(var(--lgt-accent));
     padding-left: calc(var(--width) + 0.5rem);
     transition: right var(--transition-speed), width var(--transition-speed),
-      border-radius var(--transition-speed),
+      border-radius var(--transition-speed) var(--transition-speed),
       background-color var(--transition-speed),
       padding-left var(--transition-speed);
   }
@@ -223,21 +223,13 @@
     right: -2.5rem;
   }
   .collapsed button:hover {
-    padding-left: calc(var(--width) * 0.875);
+    right: -3rem;
+    padding-left: calc(var(--width) - 1rem);
     background-color: rgb(var(--lgt-secondary));
     transition-duration: calc(var(--transition-speed) * 2);
   }
   .side.collapsed i {
     transform: rotate(0deg);
-  }
-
-  .side.collapsed:hover {
-    transition-duration: calc(var(--transition-speed) * 2);
-    left: calc(var(--width) * -0.85);
-    transition-delay: 0s;
-  }
-  .side.collapsed.mobile {
-    left: calc(var(--width) * -1);
   }
   .collapsed.mobile button:hover {
     padding-left: calc(var(--width) + 0.5rem);

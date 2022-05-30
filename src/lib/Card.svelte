@@ -107,7 +107,7 @@
 
   .glass {
     max-width: 800px;
-    width: calc(100% - 2rem);
+    width: calc(100% - 4rem);
   }
 
   @media screen and (max-width: 600px) {

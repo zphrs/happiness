@@ -82,15 +82,15 @@
     transition: background-color 0.4s;
   }
   .header:hover {
-    background-color: var(--glass-color);
+    background-color: rgb(var(--accent), 0.2);
   }
   .header::after {
     content: "";
     position: absolute;
     width: 1rem;
     height: 1rem;
-    border-radius: 0.5rem;
-    background-color: rgb(var(--avg));
+    border-radius: 2rem;
+    border: 2px solid var(--accent-color);
     transition: background-color 0.4s;
   }
   .header.active::after {
