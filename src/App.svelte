@@ -217,7 +217,7 @@
     of desires with what the universe provides. In all these cases, a form of
     balance is integral to finding happiness.
   </Card>
-  <Card {rc} title="Shout Outs" delay={14} bind:this={divs[4]} visible={false}>
+  <Card {rc} title="Shout Outs" delay={14} bind:this={divs[5]} visible={false}>
     Shout out to Ms. Beare and the rest of my sixth period philosophy class. I
     love how the class increased my understanding of other people, the
     underlying motivations behind my behavior, my inner peace. Thank you all for
